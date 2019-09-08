@@ -1,0 +1,83 @@
+﻿OPEN AI INSTALL LIST
+
+
+pip install --upgrade setuptools 
+        Setuptools is for python and helps with installing packages you must have the newest version of this for gym
+
+
+sudo easy_install pip 
+        Should already be installed but you need this to install gym or maybe you need to upgraded pip as gym needs pip3 to work
+
+
+ sudo pip install --upgrade virtualenv.
+        This installs the virtualenv python wrapper this is to
+
+
+Sudo apt install yum 
+        We are going to use yum to install our xvfb
+
+
+pip3 install cmake
+We need to install Cmake for the building of openai gym, 
+
+
+sudo apt-get install capnproto libcapnp-dev libqt5opengl5-dev qtbase5-dev
+        Run this command to install a group of packages and libraries for openai
+
+
+install brew
+
+
+sudo apt install linuxbrew-wrapper
+        Installs a linux brew wrapper
+
+
+Brew install swig
+This installs the packages swig but sometimes is unreliable I couldn't not use this on my installation of gym
+
+
+Sudo apt install swig
+Use this command if the brew does not work or spits out an error
+
+
+Sudo apt install xorg-dev
+
+
+Sudo apt-get install -y python-numpy cmake zlib1g-dev libjpeg-dev libboost-all-dev gcc libsdl2-dev wget unzip
+        This makes sure we have all the libraries and packages installed and updated,  
+
+
+
+
+sudo apt-get install python3-setuptools
+        This command is a life saver this got rid of my error
+
+
+Pip install neat-python
+
+
+Git clone https://github.com/CodeReclaimers/neat-python.git 
+        Installs our python neat libraries for openai gym
+
+
+sudo apt-get install graphviz 
+(or) 
+pip install graphviz
+
+
+For the graphs to show the progress of our ai, best shown in the feedforward gym example code.
+
+
+ pip install matplotlib
+        Installs a math library also for the graphs
+
+
+pip install tkinter
+
+
+pip install dask[complete]
+To resolve the visual error 
+
+
+xvfb libav-tools xorg-dev libsdl2-dev swig cmake
+Cmake command
